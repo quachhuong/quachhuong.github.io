@@ -16,7 +16,7 @@
 .text-left{
 	color:#585858;
 	padding-top: 10px;
-	font-size:15px;
+	font-size:11px;
 }
 .menu{
 	height:80px;
@@ -27,6 +27,7 @@
 	width:20%;
 	height:80px;
 	float:left;
+	background-color: yellow;
 }
 .menu-main{
 	width:60%;
@@ -36,8 +37,9 @@
 li{
 	list-style-type: none;
 	float:left;
-	font-size: 11px;
+	font-size: 14px;
 	text-decoration: none;
+	margin-left: 55px;
 }
 a:link{
 	text-decoration:none;
@@ -48,4 +50,8 @@ a:link{
 	height:80px;
 	background-color: yellow;
 	float:left;
+}
+.container{
+	background-color: grey;
+	height:100px;
 }
