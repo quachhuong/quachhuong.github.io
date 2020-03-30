@@ -1,57 +1,84 @@
-/* ---------HEADER---------*/
-.header{
-	background-color: red;
+@import url('https://fonts.google.com/?selection.family=Roboto:400,700&query=meiryo');
+html,body{
 	width:100%;
-	height:125px;
+	height:100%;
+	font-family: 'Meiryo';
+	font-size: 14px;
+	color:#000000;
 }
-.welcome{
-	height:45px;
-	width: 100%;
-	background-color: #222222;
+footer{
+	color:#828282 !important;
+}
+.top{
+	height: 45px; 
+	background-color:#222222 ;
+	color:#e7e7e7;
+}
+.container-fluid{
+	padding: 0 0 0 0 !important;
+}
+.navbar {
+	background-color: rgba(255,255,255,0.9) ;
+	height:80px;
+	padding: 0 0 0 0 !important;
+}
+.navbar-branch{
+	padding-left: 30px;
+}
+.navbar li a{
+	color:black !important;
+}
+.navbar li a:hover{
+	color:#967dc0 !important;
+}
+.human{
+	width:100%;
+	height:560px;
+	background-color: #eeeeee;
+	position: relative;
 }
 .text{
-	margin-left: 30px;
-	width:50%;
+	color:#e1e1e1;
+	top: 25%;
+	position: absolute;
+	z-index: 1;
+	font-size: 100px;
+	right:15%;
 }
-.text-left{
-	color:#585858;
-	padding-top: 10px;
-	font-size:11px;
+.make{
+	width:100%;
+	height:200px;
+	background-color: #cad7df;
+	margin-bottom:30px; 
 }
-.menu{
-	height:80px;
-	width: 100%;
-	background-color: #ffffff;
+.backpack{
+	width:100%;
+	height:330px;
+	background-color: #dedede;
 }
-.logo{
-	width:20%;
-	height:80px;
-	float:left;
-	background-color: yellow;
+hr{
+	margin-top:0rem !important;
+	margin-bottom: 30px !important;
+	border: 1px solid #e7e7e7;
 }
-.menu-main{
-	width:60%;
-	height:80px;
-	float:left;
-}
-li{
-	list-style-type: none;
-	float:left;
-	font-size: 14px;
-	text-decoration: none;
-	margin-left: 55px;
-}
-a:link{
-	text-decoration:none;
-	color:#222222;
-}
-.icon{
-	width: 20%;
-	height:80px;
-	background-color: yellow;
-	float:left;
+footer{
+	background-color:#222222 ;
+	color:#e7e7e7;
 }
 .container{
-	background-color: grey;
-	height:100px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+hr.light{
+	border: 0.5px solid #e7e7e7;
+}
+/*Media query*/
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+	
+}
+@media (max-width: 576px){
+	
 }
