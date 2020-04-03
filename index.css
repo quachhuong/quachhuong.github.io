@@ -1,4 +1,5 @@
 @import url('https://fonts.google.com/?selection.family=Roboto:400,700&query=meiryo');
+@import url('https://fonts.google.com/specimen/Caveat?selection.family=Roboto:wght@400;700');
 html,body{
 	width:100%;
 	height:100%;
@@ -9,10 +10,20 @@ html,body{
 footer{
 	color:#828282 !important;
 }
+
 .top{
 	height: 45px; 
 	background-color:#222222 ;
-	color:#e7e7e7;
+	color:#525252;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:left;
+	margin-right: 0%;
 }
 .container-fluid{
 	padding: 0 0 0 0 !important;
@@ -26,9 +37,12 @@ footer{
 	padding-left: 30px;
 }
 .navbar li a{
-	color:black !important;
 	font-family: 'Meiryo' !important;
 	padding-right: 55px !important;
+	color: black;
+}
+.active{
+	color:#8262b5 !important;
 }
 .navbar li a:hover{
 	color:#967dc0 !important;
@@ -56,7 +70,7 @@ footer{
 	right:12%;
 }
 .two{
-	font-family: 'Pacifico';
+	font-family: 'Caveat';
 	position: absolute;
 	font-size: 30px;
 	z-index: 1;
@@ -157,44 +171,133 @@ footer{
 .featured{
 	margin-top: 80px;
 }
+.h6,h6{
+	color:#8262b5;
+	letter-spacing: 7px;
+	font-size: 12px !important;
+}
+.text5{
+	font-size: 24px;
+	padding-top: 13px;
+	font-family: 'Meiryo';
+}
+.line{
+	width:50px;
+	margin-left: 0px;
+	margin-top:20px !important;
+	padding-bottom: 20px !important;
+	color:#8262b5;
+	height:3px;
+}
+.sus{
+	margin-left: 0px !important;
+}
+.item{
+	position: relative;
+	z-index: 0;
+}
+.dep{
+	background-color: #f4f4f4;
+}
+.cart{
+	width:120px;
+	height:40px;
+	background-color: white !important;
+	color:#555555 !important;
+	left:17%;top: 72%;
+	position: absolute;
+	z-index: 1;
+}
+.cart a:hover{
+	color:#8262b5;
+}
 /*---------Latest---------*/
-.bg{
+
+.background{
+	background-image: url(image/background.png);
 	width:100%;
 	height:710px;
 }
+
 hr{
 	margin-top:0rem !important;
 	margin-bottom: 30px !important;
-	border: 1px solid #e7e7e7;
+	border: 3px solid #e7e7e7;
 }
+.contai{
+	padding-top: 80px;
+}
+.line1{
+	width:50px;
+	margin-top:30px !important;
+	padding-bottom: 20px !important;
+	color:#8262b5;
+	height:3px;
+}
+/*-------footer------*/
 footer{
 	background-color:#222222 ;
 	color:#e7e7e7;
+}
+.footer{
+	padding-top:60px;
 }
 .container{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
 hr.light{
-	border: 0.5px solid #e7e7e7;
+	border: 1px solid #e7e7e7;
 }
 /*Media query*/
 /* Dành cho điện thoại */
-@media all and (min-width: 320px) {
-
+@media screen and (min-width: 320px) {
+	.cart{
+	width:120px;
+	height:40px;
+	background-color: white !important;
+	color:#555555 !important;
+	left:28%;top: 72%;
+	position: absolute;
+	z-index: 1;
+}
 }
  
 /* Dành cho máy tính bảng chiều dọc */
-@media all and (min-width: 600px) {
-
+@media screen and (min-width: 600px) {
+	.cart{
+	width:120px;
+	height:40px;
+	background-color: white !important;
+	color:#555555 !important;
+	top: 72%;
+	position: absolute;
+	z-index: 1;
+}
 }
  
 /* Dành cho máy tính bảng chiều ngang */
-@media all and (min-width: 1024px) {
-
+@media screen and (min-width: 1024px) {
+	.cart{
+	width:120px;
+	height:40px;
+	background-color: white !important;
+	color:#555555 !important;
+	left:12%;top: 72%;
+	position: absolute;
+	z-index: 1;
+}
 }
  
 /* Dành cho màn hình desktop */
-@media all and (min-width: 1280px) {
-
+@media screen and (min-width: 1280px) {
+	.cart{
+	width:120px;
+	height:40px;
+	background-color: white !important;
+	color:#555555 !important;
+	left:8%;top: 72%;
+	position: absolute;
+	z-index: 1;
+}
 }
