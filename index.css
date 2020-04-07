@@ -1,11 +1,15 @@
 @import url('https://fonts.google.com/?selection.family=Roboto:400,700&query=meiryo');
-@import url('https://fonts.google.com/specimen/Caveat?selection.family=Roboto:wght@400;700');
+@import url('https://fonts.google.com/?selection.family=Roboto:wght@400;700&query=montserrat');
 html,body{
 	width:100%;
 	height:100%;
 	font-family: 'Meiryo';
 	font-size: 14px;
 	color:#000000;
+}
+*{
+	margin:0px;
+	padding: 0px;
 }
 footer{
 	color:#828282 !important;
@@ -37,7 +41,7 @@ footer{
 	padding-left: 30px;
 }
 .navbar li a{
-	font-family: 'Meiryo' !important;
+	
 	padding-right: 55px !important;
 	color: black;
 }
@@ -70,7 +74,6 @@ footer{
 	right:12%;
 }
 .two{
-	font-family: 'Caveat';
 	position: absolute;
 	font-size: 30px;
 	z-index: 1;
@@ -261,6 +264,7 @@ hr.light{
 	position: absolute;
 	z-index: 1;
 }
+
 }
  
 /* Dành cho máy tính bảng chiều dọc */
