@@ -7,11 +7,13 @@ html,body{
 	font-size: 14px;
 	color:#000000;
 }
+
 *{
 	margin:0px;
 	padding: 0px;
 }
 footer{
+	background-color: #222222;
 	color:#828282 !important;
 }
 
@@ -19,15 +21,19 @@ footer{
 	height: 45px; 
 	background-color:#222222 ;
 	color:#525252;
+	font-size:14px;
+	padding-top:15px;
 	padding-right: 30px;
 	padding-left: 30px;
+	vertical-align: middle;
 }
 .left{
 	float:left;
+	vertical-align: middle;
 }
 .right{
 	float:left;
-	margin-right: 0%;
+	vertical-align: middle;
 }
 .container-fluid{
 	padding: 0 0 0 0 !important;
@@ -39,6 +45,9 @@ footer{
 }
 .navbar-branch{
 	padding-left: 30px;
+}
+.heart{
+	padding-right: 30px;
 }
 .navbar li a{
 	
@@ -207,13 +216,11 @@ footer{
 	height:40px;
 	background-color: white !important;
 	color:#555555 !important;
-	left:17%;top: 72%;
+	left:3%;top: 86%;
 	position: absolute;
 	z-index: 1;
 }
-.cart a:hover{
-	color:#8262b5;
-}
+
 /*---------Latest---------*/
 
 .background{
@@ -225,18 +232,19 @@ footer{
 hr{
 	margin-top:0rem !important;
 	margin-bottom: 30px !important;
-	border: 3px solid #e7e7e7;
 }
 .contai{
 	padding-top: 80px;
 }
 .line1{
 	width:50px;
+	text-align: center !important;
 	margin-top:30px !important;
 	padding-bottom: 20px !important;
 	color:#8262b5;
 	height:3px;
 }
+
 /*-------footer------*/
 footer{
 	background-color:#222222 ;
@@ -250,57 +258,58 @@ footer{
 	padding-right: 0px !important;
 }
 hr.light{
-	border: 1px solid #e7e7e7;
+	margin-top:25px;
+	border: 0.3px solid #e7e7e7;
 }
 /*Media query*/
-/* Dành cho điện thoại */
+
 @media screen and (min-width: 320px) {
 	.cart{
 	width:120px;
 	height:40px;
 	background-color: white !important;
 	color:#555555 !important;
-	left:28%;top: 72%;
+	left:27%;top: 86%;
 	position: absolute;
 	z-index: 1;
 }
 
 }
  
-/* Dành cho máy tính bảng chiều dọc */
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 768px) {
 	.cart{
 	width:120px;
 	height:40px;
 	background-color: white !important;
 	color:#555555 !important;
-	top: 72%;
+	left:14%;top: 86%;
 	position: absolute;
 	z-index: 1;
 }
 }
  
-/* Dành cho máy tính bảng chiều ngang */
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 992px) {
 	.cart{
 	width:120px;
 	height:40px;
 	background-color: white !important;
 	color:#555555 !important;
-	left:12%;top: 72%;
+	left:23%;top: 86%;
 	position: absolute;
 	z-index: 1;
 }
 }
  
-/* Dành cho màn hình desktop */
-@media screen and (min-width: 1280px) {
+
+@media screen and (min-width: 1200px) {
 	.cart{
 	width:120px;
 	height:40px;
 	background-color: white !important;
 	color:#555555 !important;
-	left:8%;top: 72%;
+	left:3%;top: 86%;
 	position: absolute;
 	z-index: 1;
 }
