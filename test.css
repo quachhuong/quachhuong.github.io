@@ -17,3 +17,11 @@ a{
 	margin:0px;
 	padding:0px;
 }
+.flex-container-fluid{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flex-container-fluid > div .left,.right {
+	width:50%;
+
+}
