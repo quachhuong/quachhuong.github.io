@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width= device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -25,7 +26,7 @@
 			</div>
 		</div>
 		<!--Navigation-->
-		<nav class="navbar navbar-expand-xl navbar-light navbar-dafault " role="navigation">
+		<nav class="navbar navbar-expand-xl navbar-dafault " role="navigation">
 			<div class="container-fluid">
 				<div>
 					<a class="navbar-branch" href="#">
@@ -34,7 +35,8 @@
 				</div>
 				<div class="container">
 					<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-						<span class="navbar-toggler-icon"></span>
+						<!--<span class="navbar-toggler-icon"></span>-->
+						<i class="fa fa-bars fa-2x"></i>
 					</button>
 					<div class="collapse navbar-collapse" id="collapsibleNavbar">
 						<ul class="navbar-nav justify-content-center">
@@ -60,7 +62,7 @@
 								<b><a class="nav-link" href="#">CONTACT</a></b>
 							</li>
 							<li class="nav-item">
-								<b><a class="nav-link" href="#">S</a></b>
+								<a class="nav-link" href="#"><i class="fa fa-search"  ></i></a>
 							</li>
 						</ul>
 					</div>
@@ -111,92 +113,98 @@
 			</section>
 
 		</div>
+		<!--features-->
 		<section class="featured">
 				<div class="container ">
 					<b><h6>FRANCO</h6></b>
 					<b class="text5">FEATURED ITEMS</b>
 					<hr class="line" / >
 					<div class="row text-center ">
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row11.png " >
 								<a><button type="button" class="btn cart">ADD TO CART</button></a>
 							</div>
 							<br>
-							<b class="sus">Suspendisse id volutpat</b><br>
-							<img src="image/start.png" ><br>
-							<span>$99.00<b>$84.00</b></span>
+							<div class="proinfor">
+								<b >Suspendisse id volutpat</b><br>
+								<!--<img src="image/start.png" >-->
+								<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i>
+								<br>
+								<span><strike class="sale">$99.00</strike><b class="sale1"> $84.00</b></span>
+							</div>
 						</div>
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row12.png">
 								<button type="button" class="btn cart">ADD TO CART</button>
 							</div><br>
-							<b class="sus">Lorem ipsum dolor</b><br>
-							<img src="image/start.png"><br>
-							<span>$99.00<b>$84.00</b></span>
+							<b>Lorem ipsum dolor</b><br>
+							<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i><br>
+							<span><strike class="sale">$99.00</strike><b class="sale1"> $84.00</b></span>
 						</div>
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row13.png" >
 								<button type="button" class="btn cart">ADD TO CART</button>
 							</div><br>
-							<b class="sus">Proinn sed nulla mi</b><br>
-							<img src="image/start.png" ><br>
-							<span>$99.00<b>$84.00</b></span>
+							<b>Proinn sed nulla mi</b><br>
+							<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i><br>
+							<span><strike class="sale">$99.00</strike><b class="sale1"> $84.00</b></span>
 						</div>
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row14.png" >
 								<button type="button" class="btn cart">ADD TO CART</button>
 							</div><br>
-							<b class="sus">Aenean placerat</b><br>
-							<img src="image/start.png" ><br>
-							<span>$99.00<b>$84.00</b></span>
+							<b>Aenean placerat</b><br>
+							<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i><br>
+							<span><strike class="sale">$99.00</strike><b class="sale1"> $84.00</b></span>
 						</div>
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row21.png" >
 								<button type="button" class="btn cart">ADD TO CART</button>
 							</div><br>
-							<b class="sus">Suspendisse id volutpat</b><br>
-							<img src="image/start.png" ><br>
-							<span>$99.00<b>$84.00</b></span>
+							<b>Suspendisse id volutpat</b><br>
+							<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i><br>
+							<span><strike class="sale">$99.00</strike><b class="sale1"> $84.00</b></span>
 						</div>
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row22.png" >
 								<button type="button" class="btn cart">ADD TO CART</button>
 							</div><br>
-							<b class="sus">Lorem ipsum dolor</b><br>
-							<img src="image/start.png" ><br>
-							<span>$99.00<b>$84.00</b></span>
+							<b>Lorem ipsum dolor</b><br>
+							<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i><br>
+							<span><strike class="sale">$99.00</strike><b class="sale1"> $84.00</b></span>
 						</div>
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row23.png" >
 								<button type="button" class="btn cart">ADD TO CART</button>
 							</div><br>
-							<b class="sus">Proin sed nulla mi</b><br>
-							<img src="image/start.png"><br>
-							<span>$99.00<b>$84.00</b></span>
+							<b>Proin sed nulla mi</b><br>
+							<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i><br>
+							<span><strike class="sale" >$99.00</strike><b class="sale1"> $84.00</b></span>
 						</div>
-						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3">
+						<div class=" col-sm-12 col-md-6 col-lg-6 col-xl-3 product">
 							<div class="item">
 								<img src="image/row24.png" >
 								<button type="button" class="btn cart">ADD TO CART</button>
 							</div><br>
-							<b class="sus">Aenean placerat</b><br>
-							<img src="image/start.png" ><br>
-							<span>$99.00<b>$84.00</b></span>
+							<b>Aenean placerat</b><br>
+							<i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o star"></i><i class="fa fa-star-o "></i><br>
+							<span><strike class="sale">$99.00</strike><b class="sale1"> $84.00</b></span>
 						</div>
 					</div>
 				</div>
 
 		</section>
+		<!--news and latest-->
 		<section class="container-fluid background">
-			
-			  <div class="container contai">
+			  <div class="container my-4">
+			  	<div class="container contai">
 			  	<div class=" text-center">
 				  	<b><h6>LATEST</h6></b>
 					<b class="text5">NEWS & EVENTS</b>
@@ -205,18 +213,20 @@
     
 			    <!--Carousel Wrapper-->
 			    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-			      
-			      
-
-			      
-
+			    	<!--Indicators-->
+				      	<ol class="carousel-indicators">
+					        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+					        <li data-target="#multi-item-example" data-slide-to="1"></li>
+					        <li data-target="#multi-item-example" data-slide-to="2"></li>
+				      	</ol>
+			      	<!--/.Indicators-->
+			    	<div class="carousel-inner" role="listbox">
 			        <!--First slide-->
 			        <div class="carousel-item active">
 
 			          <div class="row">
 			            <div class="col-md-4">
-			              	<div class="card mb-2">
+			              	<div class="card">
 			                	<img class="card-img-top image" src="image/slide1.png" alt="Card image cap">
 			                	<div class="box1">
 			                		<div class="box2 text-center vertical-middle">
@@ -226,11 +236,11 @@
 
 			                	</div>
 			                	<div class="card-body">
-			                 		<h4 class="card-title">In commodo dolor vitae</h4>
+			                 		<h4 class="card-title"><a href="#">In commodo dolor vitae</a></h4>
 			                 		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 			                  
 			                	</div><hr class="line2">
-			                	<p><img src="image/cmt.png"> 12 <img src="image/hrt.png"> 6</p>
+			                	<p class=""><img src="image/cmt.png"> 12 <img src="image/hrt.png"> 6</p>
 			             	</div>
 			            </div>
 
@@ -245,7 +255,7 @@
 
 			                	</div>
 			                	<div class="card-body">
-			                  		<h4 class="card-title">Vivamus non dignissim elit</h4>
+			                  		<h4 class="card-title"><a href="#">Vivamus non dignissim elit</a></h4>
 			                  		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 			                  
 			                	</div><hr class="line2">
@@ -264,7 +274,7 @@
 
 			                	</div>
 			                	<div class="card-body">
-			                  		<h4 class="card-title">Ut lacinia erat ut diam volutpat</h4>
+			                  		<h4 class="card-title"><a href="#">Ut lacinia erat ut diam volutpat</a></h4>
 			                  		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 			                  
 			                	</div><hr class="line2">
@@ -291,7 +301,7 @@
 
 			                	</div>
 			                	<div class="card-body">
-			                  		<h4 class="card-title">Vivamus non dignissim elit</h4>
+			                  		<h4 class="card-title"><a href="#">Vivamus non dignissim elit</a></h4>
 			                  		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 			                 
 			                	</div>
@@ -311,7 +321,7 @@
 
 			                	</div>
 			                	<div class="card-body">
-			                 	 	<h4 class="card-title">In commodo dolor vitae</h4>
+			                 	 	<h4 class="card-title"><a href="#">In commodo dolor vitae</a></h4>
 			                  		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 			                  
 			                	</div><hr class="line2">
@@ -330,7 +340,7 @@
 
 			                	</div>
 			                	<div class="card-body">
-			                  		<h4 class="card-title">Ut lacinia erat ut diam volutpat</h4>
+			                  		<h4 class="card-title"><a href="#">Ut lacinia erat ut diam volutpat</a></h4>
 			                  		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 			                  
 			                	</div><hr class="line2">
@@ -357,7 +367,7 @@
 
 			                	</div>
 				                	<div class="card-body">
-				                  		<h4 class="card-title">Ut lacinia erat ut diam volutpat</h4>
+				                  		<h4 class="card-title"><a href="#">Ut lacinia erat ut diam volutpat</a></h4>
 				                  		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 				                  
 				                	</div><hr class="line2">
@@ -376,7 +386,7 @@
 
 			                	</div>
 			                	<div class="card-body">
-			                  		<h4 class="card-title">In commodo dolor vitae</h4>
+			                  		<h4 class="card-title"><a href="#">In commodo dolor vitae</a></h4>
 			                  		<p class="card-text">Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris.</p>
 			                  
 			                	</div><hr class="line2">
@@ -407,45 +417,40 @@
 			        </div>
 			        <!--/.Third slide-->
 			        
-			      </div>
+			      	</div>
 			      	<!--/.Slides-->
-			      	<div class="list" role="listbox">
-			    <!--Indicators-->
-				      	<ol class="carousel-indicators">
-					        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-					        <li data-target="#multi-item-example" data-slide-to="1"></li>
-					        <li data-target="#multi-item-example" data-slide-to="2"></li>
-				      	</ol>
-			      	<!--/.Indicators-->
+			      	
+			    
 			      	</div>
 
 			    </div>
 			    <!--/.Carousel Wrapper-->
 			    <!--Slides-->
-
-			
+			    
+			      </div>
 		</section>
+		<!--footer-->
 		<footer>
 			<div class="container-fluid ">
 				<div class="container">
 					<div class="footer">
 						<div class="row">
-							<div class=" col-sm-12 col-md-12 col-lg-3 col-xl-3">
+							<div class=" col-sm-12 col-md-12 col-lg-3 col-xl-3 col1">
 								<b class="white">About Franco</b>
 								<hr class="light" />
 								<p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel, Aenean hendrerit, elit a lacinia suscripit, orci mauris vulputate mi, eu interdum nunc diam at ipsum.</p>
-								<a href="#"> <img src="image/twice.png"></a>
-								<a href="#"> <img src="image/in.png"></a>
-								<a href="#"> <img src="image/be.png"></a>
-								<a href="#"> <img src="image/face.png"></a>
+								<a href="#"><i class="fa fa-twitter icon"  ></i></a>
+								<a  href="#"><i class="fa fa-linkedin icon"  ></i></a>
+								<a href="#"><i class="fa fa-behance icon"  ></i></a>
+								<a  href="#"><i class="fa fa-basketball-ball icon"  ></i></a>
 								
 							</div>
 							<div class="col-lg-1 col-xl-1"></div>
-							<div class=" col-sm-12 col-md-12 col-lg-4 col-xl-4">
+							<div class=" col-sm-12 col-md-12 col-lg-4 col-xl-4 col1">
 								<b class="white">Navigation</b>
 								<hr class="light" />
 								<div class="row">
-									<div class="col-md-4">
+									<div class="col-md-4 menu">
 										<ul class="navbar-nav ml-auto">
 											<li class="nav-item"><a href="#">Home</a></li>
 											<li class="nav-item"><a href="#">About Us</a></li>
@@ -457,7 +462,7 @@
 										</ul>
 									</div>
 									<div class="col-md-2"></div>
-									<div class="col-md-6">
+									<div class="col-md-6 menu">
 										<ul class="navbar-nav ml-auto">
 											<li class="nav-item"><a href="#">FAQs</a></li>
 											<li class="nav-item"><a href="#">Featured Brands</a></li>
@@ -481,13 +486,17 @@
 						</div>
 					</div>
 				</div>
-				<hr>
+				<hr class="hrbottom">
 				<div class="container">
 					<div class="flex-container">
 						<div class="bottom">
 						<div class="left1"><p>&copy Copyright 2015 & Made with <img src="image/copy.png"> by <span class="white">ArrowHiTech</span></p></div>
 						<div class="right1">
-							<img src="image/visa.png">
+							<i class="fa fa-cc-visa icon1"  ></i>
+							<i class="fa fa-cc-paypal icon1"  ></i>
+							<i class="fa fa-cc-mastercard icon1" ></i>
+							<i class="fa fa-cc-discover icon1"  ></i>
+							<i class="fa fa-cc-amex icon1"  ></i>
 						</div>
 					</div>
 					</div>
